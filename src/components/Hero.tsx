@@ -11,15 +11,6 @@ const Hero = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-background/40"></div>
       </div>
-      
-      {/* Logo */}
-      <div className="absolute top-8 left-8 z-10">
-        <img 
-          src="/lovable-uploads/b33e4142-daa8-40b6-bbe0-d01d88f6948d.png" 
-          alt="Now Now Rolex Logo" 
-          className="w-20 h-20 md:w-24 md:h-24 hover:scale-110 transition-transform duration-300"
-        />
-      </div>
 
       {/* Hero Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto animate-fade-in">

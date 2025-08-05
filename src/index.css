@@ -4,6 +4,10 @@
 
 /* Now Now Rolex Design System - Street Food Vibes */
 
+* {
+  outline: 1px solid red;
+}
+
 @layer base {
   :root {
     /* Brand Colors - Vibrant & Urban */
@@ -42,8 +46,12 @@
     /* Urban Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(36 96% 48%), hsl(8 92% 55%));
     --gradient-card: linear-gradient(145deg, hsl(25 20% 12%), hsl(25 25% 15%));
-    --gradient-accent: linear-gradient(135deg, hsl(36 96% 48%), hsl(36 96% 65%));
-    
+    --gradient-accent: linear-gradient(
+      135deg,
+      hsl(36 96% 48%),
+      hsl(36 96% 65%)
+    );
+
     /* Street Shadows */
     --shadow-glow: 0 0 40px hsl(36 96% 48% / 0.3);
     --shadow-card: 0 10px 30px -5px hsl(25 15% 8% / 0.8);
