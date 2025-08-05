@@ -27,8 +27,8 @@ const Header = () => {
             <span className="text-xl font-bold text-primary">Now Now Rolex</span>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-6">
+          {/* Desktop Navigation - Large screens only */}
+          <nav className="hidden lg:flex items-center gap-6">
             {menuItems.map((item) => (
               <a
                 key={item.label}
@@ -40,8 +40,8 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Desktop CTA */}
-          <div className="hidden md:flex items-center gap-3">
+          {/* Desktop CTA - Large screens only */}
+          <div className="hidden lg:flex items-center gap-3">
             <Button variant="ghost" size="sm">
               Call Us
             </Button>
@@ -50,18 +50,18 @@ const Header = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button - Small and Medium screens */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+            className="lg:hidden p-2 text-muted-foreground hover:text-primary transition-colors duration-300"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu - Small and Medium screens */}
         {isMenuOpen && (
-          <div className="md:hidden border-t border-border bg-background/98 backdrop-blur-md animate-fade-in">
+          <div className="lg:hidden border-t border-border bg-background/98 backdrop-blur-md animate-fade-in">
             <nav className="py-4 space-y-2">
               {menuItems.map((item) => (
                 <a
