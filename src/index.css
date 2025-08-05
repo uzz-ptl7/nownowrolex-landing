@@ -4,10 +4,6 @@
 
 /* Now Now Rolex Design System - Street Food Vibes */
 
-* {
-  outline: 1px solid red;
-}
-
 @layer base {
   :root {
     /* Brand Colors - Vibrant & Urban */
