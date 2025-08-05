@@ -1,73 +1,110 @@
-# Welcome to your Lovable project
+# 🍳 Now Now Rolex
 
-## Project info
+> **Street food, unique beers, and creative cocktails at fair prices.**
 
-**URL**: https://lovable.dev/projects/31a894a9-ce61-4962-8a6f-96e387e9b983
+A bold, mobile-first landing page for **Now Now Rolex**, a modern street food and bar concept. Built with performance, style, and user experience in mind.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 🧭 **Responsive Navigation**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/31a894a9-ce61-4962-8a6f-96e387e9b983) and start prompting.
+  - Full nav on large screens
+  - Hamburger menu for tablets & mobile
 
-Changes made via Lovable will be committed automatically to this repo.
+- 📱 **Mobile-First Design**  
+  Optimized layout for smartphones, tablets, and desktops
 
-**Use your preferred IDE**
+- 🌮 **Dynamic Menu Highlights**  
+  Showcasing signature food, beers, and cocktails
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 📍 **Location + Hours**  
+  Embedded map and contact info
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🎨 **Modern Aesthetic**  
+  Street-inspired colors, subtle animations, bold fonts
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📁 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+/
+├── public/             # Static assets
+├── src/
+│   ├── components/     # Reusable UI components (Header, Footer, etc.)
+│   ├── pages/          # Route-based pages (e.g., index.tsx)
+│   ├── styles/         # Global and modular styles
+│   └── utils/          # Utility functions (if needed)
+├── README.md           # Project documentation
+├── package.json        # Project metadata and scripts
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Technologies Used
 
-**Use GitHub Codespaces**
+- **React** / **Next.js**
+- **Tailwind CSS** for utility-first styling
+- **TypeScript** (if applicable)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🧪 Getting Started
 
-This project is built with:
+### 1. Clone the repo
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+git clone https://github.com/yourusername/nownowrolex.git
+cd nownowrolex
+```
 
-## How can I deploy this project?
+### 2. Install dependencies
 
-Simply open [Lovable](https://lovable.dev/projects/31a894a9-ce61-4962-8a6f-96e387e9b983) and click on Share -> Publish.
+```bash
+npm install
+# or
+yarn install
+```
 
-## Can I connect a custom domain to my Lovable project?
+### 3. Run the development server
 
-Yes, you can!
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## ✅ Recent Updates
+
+- **Header UX Improvement:** Hamburger menu now activates on medium screens for better spacing and accessibility.
+- **Menu Section:** Highlighted key food and drink items with images and descriptions.
+- **Responsive Layout:** Fully mobile-optimized with clean animations.
+
+---
+
+## 📦 Deployment
+
+This project is ready for deployment on platforms like **Vercel**, **Netlify**, or any static host.
+
+---
+
+## 📌 TODO
+
+- [ ] Add real menu item images
+- [ ] Integrate customer testimonials
+- [ ] Connect to CMS for dynamic content (optional)
+- [ ] Add social media links
+
+---
+
+## 👨‍🍳 About
+
+**Now Now Rolex** celebrates local street food culture with flair — bringing together flavorful dishes, bold drinks, and chill vibes at fair prices.
+
+---
