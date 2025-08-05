@@ -36,23 +36,23 @@ const Reviews = () => {
   };
 
   return (
-    <section className="py-20 px-6 bg-gradient-card">
+    <section className="py-12 md:py-20 px-4 sm:px-6 bg-gradient-card overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+        <div className="text-center mb-12 md:mb-16 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6">
             What People Say
           </h2>
           <div className="w-24 h-1 bg-gradient-accent mx-auto mb-8"></div>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Don't just take our word for it - here's what our customers love about Now Now Rolex
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {reviews.map((review, index) => (
             <Card 
               key={review.name} 
-              className="bg-gradient-card border-border shadow-card hover:shadow-glow transition-all duration-500 transform hover:scale-105 animate-bounce-in p-6"
+              className="bg-gradient-card border-border shadow-card hover:shadow-glow transition-all duration-500 transform hover:scale-[1.02] md:hover:scale-105 animate-bounce-in p-4 md:p-6 w-full"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="mb-4">
@@ -81,14 +81,14 @@ const Reviews = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12 animate-fade-in">
-          <div className="inline-flex items-center gap-4 bg-muted/20 rounded-full px-6 py-3">
+        <div className="text-center mt-8 md:mt-12 animate-fade-in">
+          <div className="inline-flex flex-col sm:flex-row items-center gap-2 sm:gap-4 bg-muted/20 rounded-full px-4 sm:px-6 py-3 max-w-full">
             <div className="flex items-center gap-1">
               {renderStars(5)}
             </div>
-            <span className="text-foreground font-semibold">4.9/5 Average Rating</span>
-            <span className="text-muted-foreground">•</span>
-            <span className="text-muted-foreground">200+ Reviews</span>
+            <span className="text-foreground font-semibold text-sm sm:text-base">4.9/5 Average Rating</span>
+            <span className="text-muted-foreground hidden sm:inline">•</span>
+            <span className="text-muted-foreground text-sm sm:text-base">200+ Reviews</span>
           </div>
         </div>
       </div>

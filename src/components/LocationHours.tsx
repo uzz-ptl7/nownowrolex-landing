@@ -9,19 +9,19 @@ const LocationHours = () => {
   ];
 
   return (
-    <section className="py-20 px-6">
+    <section className="py-12 md:py-20 px-4 sm:px-6 overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+        <div className="text-center mb-12 md:mb-16 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6">
             Find Us
           </h2>
           <div className="w-24 h-1 bg-gradient-accent mx-auto mb-8"></div>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Located in the heart of the city - come hungry, leave happy
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12">
           {/* Map Section */}
           <div className="animate-slide-in-left">
             <Card className="bg-gradient-card border-border shadow-card hover:shadow-glow transition-all duration-500 overflow-hidden">
@@ -105,14 +105,14 @@ const LocationHours = () => {
               </div>
               
               <div className="mt-6 pt-6 border-t border-border">
-                <div className="flex gap-4">
-                  <Button variant="ghost" size="sm" className="flex-1">
+                <div className="flex flex-wrap gap-2 sm:gap-4">
+                  <Button variant="ghost" size="sm" className="flex-1 min-w-0">
                     Facebook
                   </Button>
-                  <Button variant="ghost" size="sm" className="flex-1">
+                  <Button variant="ghost" size="sm" className="flex-1 min-w-0">
                     Instagram
                   </Button>
-                  <Button variant="ghost" size="sm" className="flex-1">
+                  <Button variant="ghost" size="sm" className="flex-1 min-w-0">
                     TikTok
                   </Button>
                 </div>
