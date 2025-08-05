@@ -7,28 +7,28 @@ const MenuHighlights = () => {
     {
       name: "Original Rolex",
       description: "Fresh chapati rolled with scrambled eggs, tomatoes, and onions",
-      price: "UGX 3,000",
+      price: "RWF 1,500",
       image: rolexImage,
       popular: true
     },
     {
       name: "Deluxe Rolex",
       description: "Premium version with avocado, cheese, and extra vegetables",
-      price: "UGX 5,000",
+      price: "RWF 2,500",
       image: rolexImage,
       popular: false
     },
     {
       name: "Spicy Rolex",
       description: "Heat lovers' choice with jalapeños and special hot sauce",
-      price: "UGX 3,500",
+      price: "RWF 1,800",
       image: rolexImage,
       popular: true
     },
     {
       name: "Veggie Rolex",
       description: "Plant-based delight with mixed vegetables and herbs",
-      price: "UGX 2,800",
+      price: "RWF 1,400",
       image: rolexImage,
       popular: false
     }

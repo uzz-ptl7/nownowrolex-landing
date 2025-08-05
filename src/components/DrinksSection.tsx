@@ -5,11 +5,11 @@ import cocktailsImage from "@/assets/cocktails.jpg";
 
 const DrinksSection = () => {
   const beers = [
-    "Bell Lager", "Club Beer", "Nile Special", "Tusker", "Guinness"
+    "Mutzig", "Primus", "Amstel", "Turbo King", "Skol"
   ];
 
   const cocktails = [
-    "Kampala Sunset", "Street Mule", "Rolex Martini", "Urban Mojito", "Spice Route"
+    "Kigali Sunset", "Street Mule", "Rolex Martini", "Urban Mojito", "Spice Route"
   ];
 
   return (
@@ -57,7 +57,7 @@ const DrinksSection = () => {
               
               <div className="text-center">
                 <span className="text-sm text-muted-foreground mb-4 block">
-                  Starting from UGX 4,000
+                  Starting from RWF 2,000
                 </span>
                 <Button variant="street" className="w-full">
                   See Beer Menu
@@ -97,7 +97,7 @@ const DrinksSection = () => {
               
               <div className="text-center">
                 <span className="text-sm text-muted-foreground mb-4 block">
-                  Starting from UGX 8,000
+                  Starting from RWF 4,000
                 </span>
                 <Button variant="street" className="w-full">
                   See Cocktail Menu

@@ -10,7 +10,7 @@ const Footer = () => {
             Come Grab a Bite
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Experience the best street food culture Kampala has to offer. 
+            Experience the best street food culture Kigali has to offer. 
             Fresh ingredients, bold flavors, and fair prices await you!
           </p>
           
@@ -52,9 +52,9 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-primary mb-4">Contact</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li>123 Street Food Avenue</li>
-              <li>Kampala Central, Uganda</li>
-              <li>+256 123 456 789</li>
-              <li>hello@nownowrolex.ug</li>
+              <li>Kigali Central, Rwanda</li>
+              <li>+250 123 456 789</li>
+              <li>hello@nownowrolex.rw</li>
             </ul>
           </div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 text-center animate-fade-in">
           <p className="text-muted-foreground">
-            © 2024 Now Now Rolex. All rights reserved. Made with ❤️ in Kampala.
+            © 2024 Now Now Rolex. All rights reserved. Made with ❤️ in Kigali.
           </p>
         </div>
       </div>

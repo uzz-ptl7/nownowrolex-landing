@@ -4,21 +4,21 @@ const Reviews = () => {
   const reviews = [
     {
       name: "Sarah M.",
-      text: "Best Rolex in Kampala! The deluxe version with avocado is absolutely divine. Plus the craft beer selection is incredible!",
+      text: "Best Rolex in Kigali! The deluxe version with avocado is absolutely divine. Plus the craft beer selection is incredible!",
       rating: 5,
-      location: "Kampala"
+      location: "Kigali"
     },
     {
       name: "James K.",
       text: "Amazing street food vibes with quality you can taste. The spicy Rolex is my go-to, and their cocktails are surprisingly creative!",
       rating: 5,
-      location: "Ntinda"
+      location: "Nyamirambo"
     },
     {
       name: "Emma L.",
-      text: "Fair prices, fresh ingredients, and the staff is so friendly. This place captures the real spirit of Ugandan street food culture.",
+      text: "Fair prices, fresh ingredients, and the staff is so friendly. This place captures the real spirit of Rwandan street food culture.",
       rating: 5,
-      location: "Bugolobi"
+      location: "Kimihurura"
     }
   ];
 

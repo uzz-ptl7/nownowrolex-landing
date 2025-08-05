@@ -34,7 +34,7 @@ const LocationHours = () => {
                         <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                       </svg>
                     </div>
-                    <p className="text-foreground font-semibold">Kampala Central</p>
+                    <p className="text-foreground font-semibold">Kigali Central</p>
                     <p className="text-muted-foreground">Click to view on Google Maps</p>
                   </div>
                 </div>
@@ -44,8 +44,8 @@ const LocationHours = () => {
                 <h3 className="text-2xl font-bold text-foreground mb-4">Location</h3>
                 <p className="text-muted-foreground mb-4">
                   123 Street Food Avenue<br />
-                  Kampala Central, Uganda<br />
-                  Near Old Taxi Park
+                  Kigali Central, Rwanda<br />
+                  Near Kimisagara Market
                 </p>
                 
                 <Button variant="street" className="w-full">
@@ -85,7 +85,7 @@ const LocationHours = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-medium text-foreground">+256 123 456 789</p>
+                    <p className="font-medium text-foreground">+250 123 456 789</p>
                     <p className="text-sm text-muted-foreground">Call for reservations</p>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const LocationHours = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-medium text-foreground">hello@nownowrolex.ug</p>
+                    <p className="font-medium text-foreground">hello@nownowrolex.rw</p>
                     <p className="text-sm text-muted-foreground">Drop us a line</p>
                   </div>
                 </div>
