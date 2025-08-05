@@ -5,6 +5,7 @@ import MenuHighlights from "@/components/MenuHighlights";
 import DrinksSection from "@/components/DrinksSection";
 import LocationHours from "@/components/LocationHours";
 import Reviews from "@/components/Reviews";
+import InstagramSection from "@/components/InstagramSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -17,6 +18,7 @@ const Index = () => {
       <DrinksSection />
       <LocationHours />
       <Reviews />
+      <InstagramSection />
       <Footer />
     </div>
   );
