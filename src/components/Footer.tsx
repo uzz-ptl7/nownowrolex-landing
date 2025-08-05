@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -29,7 +30,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="animate-slide-in-left">
             <img 
-              src="/lovable-uploads/b33e4142-daa8-40b6-bbe0-d01d88f6948d.png" 
+              src={logo}
               alt="Now Now Rolex Logo" 
               className="w-16 h-16 mb-4 hover:scale-110 transition-transform duration-300"
             />

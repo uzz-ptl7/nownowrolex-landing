@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img 
-              src="/lovable-uploads/b33e4142-daa8-40b6-bbe0-d01d88f6948d.png" 
+              src={logo} 
               alt="Now Now Rolex Logo" 
               className="w-10 h-10 hover:scale-110 transition-transform duration-300"
             />
