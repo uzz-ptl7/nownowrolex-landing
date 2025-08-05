@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="py-20 px-6 bg-background">
       <div className="max-w-6xl mx-auto">
@@ -78,10 +79,24 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-border pt-8 text-center animate-fade-in">
-          <p className="text-muted-foreground">
-            © 2024 Now Now Rolex. All rights reserved. Made with ❤️ in Kigali.
-          </p>
+        <div className="border-t border-border pt-8 animate-fade-in">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-muted-foreground text-sm text-center md:text-left">
+              © {currentYear} Now Now Rolex. All rights reserved.
+            </p>
+
+            <p className="text-accent mx-2 text-sm text-center md:text-right">
+              Made with ❤️ in Rwanda by the{" "}
+              <a 
+                href="https://www.sitecraftersz.co/" 
+                className="underline hover:text-primary transition-colors" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Sitecrafters Team
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
